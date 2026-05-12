@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>呼吸減肥法</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 導覽列 -->
+  <nav class="navbar">
+    <div class="logo">🌬️ 呼吸減肥法</div>
+    <ul class="nav-links">
+      <li><a href="#about">原理</a></li>
+      <li><a href="#methods">呼吸法</a></li>
+      <li><a href="#timer">計時器</a></li>
+      <li><a href="#foods">食物</a></li>
+      <li><a href="#acupoints">穴道</a></li>
+      <li><a href="#tips">小技巧</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>用呼吸，燃燒脂肪</h1>
+      <p>每天只需 10 分鐘，透過正確的呼吸方式，啟動身體代謝、減少壓力荷爾蒙，自然瘦下來。</p>
+      <a href="#timer" class="btn">立即開始練習</a>
+    </div>
+  </section>
+
+  <!-- 原理 -->
+  <section id="about" class="section">
+    <h2>為什麼呼吸能減肥？</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">🔥</div>
+        <h3>提升代謝</h3>
+        <p>深層腹式呼吸增加氧氣攝取，促進細胞燃燒脂肪的效率。</p>
+      </div>
+      <div class="card">
+        <div class="icon">😌</div>
+        <h3>降低皮質醇</h3>
+        <p>壓力荷爾蒙（皮質醇）是肥胖的元兇之一，緩慢呼吸能有效降低它。</p>
+      </div>
+      <div class="card">
+        <div class="icon">💪</div>
+        <h3>鍛鍊核心</h3>
+        <p>腹式呼吸同時收縮腹部肌群，長期練習有助於緊實腰腹。</p>
+      </div>
+      <div class="card">
+        <div class="icon">😴</div>
+        <h3>改善睡眠</h3>
+        <p>睡前呼吸練習提升睡眠品質，睡得好才能瘦得好。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 呼吸法 -->
+  <section id="methods" class="section section-alt">
+    <h2>三種核心呼吸法</h2>
+    <div class="methods">
+
+      <div class="method">
+        <div class="method-num">01</div>
+        <div class="method-body">
+          <h3>腹式呼吸法</h3>
+          <p>最基礎也最有效的呼吸方式。吸氣時讓腹部鼓起，呼氣時腹部內縮。</p>
+          <ol>
+            <li>平躺或坐直，一手放胸口，一手放腹部</li>
+            <li>用鼻子緩慢吸氣 4 秒，感受腹部隆起</li>
+            <li>屏住呼吸 2 秒</li>
+            <li>用嘴巴緩慢吐氣 6 秒，腹部內縮</li>
+            <li>重複 10 次為一組</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="method">
+        <div class="method-num">02</div>
+        <div class="method-body">
+          <h3>4-7-8 呼吸法</h3>
+          <p>由美國醫師 Andrew Weil 推廣，能快速放鬆神經系統、降低食慾。</p>
+          <ol>
+            <li>舌尖抵住上顎</li>
+            <li>用鼻子吸氣 4 秒</li>
+            <li>屏住呼吸 7 秒</li>
+            <li>用嘴巴吐氣 8 秒（發出輕微聲音）</li>
+            <li>重複 4 次為一組，每天 2 組</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="method">
+        <div class="method-num">03</div>
+        <div class="method-body">
+          <h3>火呼吸法（Kapalabhati）</h3>
+          <p>源自瑜伽的進階呼吸法，快速短促的呼氣能大量消耗熱量。</p>
+          <ol>
+            <li>坐直，放鬆肩膀</li>
+            <li>快速用力從鼻子呼氣，腹部用力內縮</li>
+            <li>讓吸氣自然發生（被動吸氣）</li>
+            <li>每秒約 1 次，持續 30 秒</li>
+            <li>休息 30 秒後重複，共 3 組</li>
+          </ol>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 計時器 -->
+  <section id="timer" class="section">
+    <h2>互動呼吸計時器</h2>
+    <p class="timer-desc">選擇呼吸法，跟著節奏練習</p>
+
+    <div class="timer-controls">
+      <button class="mode-btn active" data-inhale="4" data-hold="2" data-exhale="6" data-name="腹式呼吸">腹式呼吸</button>
+      <button class="mode-btn" data-inhale="4" data-hold="7" data-exhale="8" data-name="4-7-8">4-7-8</button>
+      <button class="mode-btn" data-inhale="2" data-hold="0" data-exhale="2" data-name="火呼吸">火呼吸</button>
+    </div>
+
+    <div class="timer-box">
+      <div class="breath-circle" id="breathCircle">
+        <span id="breathPhase">準備</span>
+        <span id="breathCount"></span>
+      </div>
+      <div class="timer-info">
+        <span id="cycleCount">循環：0</span>
+        <span id="totalTime">時間：0s</span>
+      </div>
+      <div class="timer-btns">
+        <button id="startBtn" class="btn">開始</button>
+        <button id="resetBtn" class="btn btn-outline">重置</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 穴道 -->
+  <section id="acupoints" class="section section-alt">
+    <h2>輔助呼吸減肥的穴道</h2>
+    <p class="timer-desc">每天按壓 3～5 分鐘，搭配呼吸練習效果加倍</p>
+
+    <div class="acu-group">
+      <h3 class="acu-group-title">🫁 促進呼吸 / 肺部</h3>
+      <div class="acu-grid">
+        <div class="acu-card">
+          <div class="acu-icon">🔵</div>
+          <h4>肺俞穴</h4>
+          <p class="acu-location">📍 背部第三胸椎旁開 1.5 寸</p>
+          <p>強化肺功能，改善呼吸淺短，增加肺活量。</p>
+          <div class="acu-how">按法：雙手拇指輕壓，順時針揉 30 圈</div>
+        </div>
+        <div class="acu-card">
+          <div class="acu-icon">🔵</div>
+          <h4>中府穴</h4>
+          <p class="acu-location">📍 鎖骨下方、胸前外側</p>
+          <p>改善胸悶、深化呼吸，舒緩呼吸道緊繃。</p>
+          <div class="acu-how">按法：食指中指併攏，輕壓畫圓 1 分鐘</div>
+        </div>
+        <div class="acu-card">
+          <div class="acu-icon">🔵</div>
+          <h4>膻中穴</h4>
+          <p class="acu-location">📍 兩乳頭連線中點</p>
+          <p>舒緩胸口緊繃，幫助呼吸更深更順暢。</p>
+          <div class="acu-how">按法：中指輕壓，配合深呼吸各按 10 次</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="acu-group">
+      <h3 class="acu-group-title">🔥 促進代謝 / 減肥</h3>
+      <div class="acu-grid">
+        <div class="acu-card">
+          <div class="acu-icon">🟢</div>
+          <h4>足三里</h4>
+          <p class="acu-location">📍 膝蓋外側下方四橫指</p>
+          <p>提升脾胃代謝，改善消化吸收，增強體力。</p>
+          <div class="acu-how">按法：拇指用力按壓，每次 3 分鐘</div>
+        </div>
+        <div class="acu-card">
+          <div class="acu-icon">🟢</div>
+          <h4>天樞穴</h4>
+          <p class="acu-location">📍 肚臍旁開兩橫指</p>
+          <p>促進腸胃蠕動，幫助排便，消除腹部脂肪。</p>
+          <div class="acu-how">按法：雙手食指同時按壓，順時針揉 50 圈</div>
+        </div>
+        <div class="acu-card">
+          <div class="acu-icon">🟢</div>
+          <h4>關元穴</h4>
+          <p class="acu-location">📍 肚臍下方三橫指</p>
+          <p>提升基礎代謝，調節內分泌，促進脂肪燃燒。</p>
+          <div class="acu-how">按法：掌心輕壓，配合腹式呼吸各 10 次</div>
+        </div>
+        <div class="acu-card">
+          <div class="acu-icon">🟢</div>
+          <h4>三陰交</h4>
+          <p class="acu-location">📍 內踝上方四橫指、脛骨後緣</p>
+          <p>調節內分泌與荷爾蒙，改善水腫型肥胖。</p>
+          <div class="acu-how">按法：拇指按壓，每側各 2 分鐘</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="acu-group">
+      <h3 class="acu-group-title">🍽️ 降低食慾</h3>
+      <div class="acu-grid">
+        <div class="acu-card">
+          <div class="acu-icon">🟠</div>
+          <h4>耳穴（飢點）</h4>
+          <p class="acu-location">📍 耳朵前方凹陷處</p>
+          <p>飯前按壓可抑制食慾，減少過量進食衝動。</p>
+          <div class="acu-how">按法：拇指食指捏住耳朵，輕壓 1 分鐘</div>
+        </div>
+        <div class="acu-card">
+          <div class="acu-icon">🟠</div>
+          <h4>合谷穴</h4>
+          <p class="acu-location">📍 虎口、拇指食指交叉凹陷處</p>
+          <p>降低壓力與焦慮，減少情緒性進食的衝動。</p>
+          <div class="acu-how">按法：對側拇指用力按壓，每次 2 分鐘</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="acu-note">
+      ⚠️ 穴道按壓為輔助保健，孕婦、有特定疾病者請先諮詢醫師
+    </div>
+  </section>
+
+  <!-- 小技巧 -->
+  <section id="tips" class="section section-alt">
+    <h2>實用小技巧</h2>
+    <div class="tips-grid">
+      <div class="tip">⏰ 每天早起後練習 5 分鐘腹式呼吸，啟動一天代謝</div>
+      <div class="tip">🍽️ 飯前做 4-7-8 呼吸，能有效降低食慾</div>
+      <div class="tip">🧘 搭配冥想效果更佳，讓心情平靜減少情緒性進食</div>
+      <div class="tip">🚶 走路時保持腹式呼吸，隨時隨地都在練習</div>
+      <div class="tip">📱 設定手機提醒，每 2 小時做一組深呼吸</div>
+      <div class="tip">💧 呼吸練習後記得補充水分，幫助代謝廢物</div>
+    </div>
+  </section>
+
+  <!-- 食物 -->
+  <section id="foods" class="section">
+    <h2>呼吸友善食物</h2>
+    <p class="timer-desc">這些食物能幫助肺部健康、提升呼吸效率，讓呼吸減肥事半功倍</p>
+    <div class="food-grid">
+
+      <div class="food-card">
+        <div class="food-emoji">🫚</div>
+        <h3>薑黃</h3>
+        <p>含薑黃素，強效抗發炎，減少呼吸道阻力，讓深呼吸更順暢。</p>
+      </div>
+
+      <div class="food-card">
+        <div class="food-emoji">🧄</div>
+        <h3>大蒜</h3>
+        <p>天然抗菌，幫助清除呼吸道黏液，改善肺部通氣功能。</p>
+      </div>
+
+      <div class="food-card">
+        <div class="food-emoji">🍎</div>
+        <h3>蘋果</h3>
+        <p>富含槲皮素，研究顯示能保護肺部組織、降低氣喘風險。</p>
+      </div>
+
+      <div class="food-card">
+        <div class="food-emoji">🥦</div>
+        <h3>花椰菜</h3>
+        <p>含蘿蔔硫素，幫助排除肺部毒素，提升細胞氧氣利用率。</p>
+      </div>
+
+      <div class="food-card">
+        <div class="food-emoji">🫐</div>
+        <h3>藍莓</h3>
+        <p>高抗氧化物，保護肺泡細胞免受自由基損傷，維持呼吸效率。</p>
+      </div>
+
+      <div class="food-card">
+        <div class="food-emoji">🐟</div>
+        <h3>深海魚</h3>
+        <p>Omega-3 脂肪酸減少肺部發炎，讓呼吸更深、更有效率。</p>
+      </div>
+
+      <div class="food-card">
+        <div class="food-emoji">🍵</div>
+        <h3>綠茶</h3>
+        <p>兒茶素幫助擴張支氣管，搭配呼吸練習前飲用效果更佳。</p>
+      </div>
+
+      <div class="food-card">
+        <div class="food-emoji">🥜</div>
+        <h3>核桃</h3>
+        <p>富含鎂，有助於放鬆支氣管肌肉，讓呼吸更輕鬆自然。</p>
+      </div>
+
+    </div>
+
+    <div class="food-avoid">
+      <h3>⚠️ 練習前避免</h3>
+      <div class="avoid-list">
+        <span>🥛 乳製品（易產生黏液）</span>
+        <span>🍺 酒精（抑制呼吸深度）</span>
+        <span>🍟 油炸食物（增加橫膈膜壓力）</span>
+        <span>🥤 碳酸飲料（腹脹影響腹式呼吸）</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>🌬️ 呼吸減肥法 &nbsp;|&nbsp; 每一口呼吸，都是改變的開始</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

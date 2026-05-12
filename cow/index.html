@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>牛隻呼吸健康管理｜乳牛與肉牛農場指南</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">🐄 牛隻健康管理</div>
+    <ul class="nav-links">
+      <li><a href="#about">呼吸評估</a></li>
+      <li><a href="#environment">環境管理</a></li>
+      <li><a href="#foods">飼料管理</a></li>
+      <li><a href="#tips">照護指南</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-emoji">🐂</div>
+      <h1>牛隻呼吸健康與體重管理</h1>
+      <p>專為乳牛場與肉牛農場管理人員設計的呼吸道健康、體況控制與生產效能最佳化指南。</p>
+      <a href="#about" class="btn">查看指南</a>
+    </div>
+  </section>
+
+  <!-- 呼吸評估 -->
+  <section id="about" class="section">
+    <h2>牛隻呼吸問題與體況影響</h2>
+
+    <div class="tab-btns">
+      <button class="tab-btn active" data-tab="both">共同問題</button>
+      <button class="tab-btn" data-tab="dairy">乳牛專屬</button>
+      <button class="tab-btn" data-tab="beef">肉牛專屬</button>
+    </div>
+
+    <div class="tab-content active" id="tab-both">
+      <div class="cards">
+        <div class="card">
+          <div class="icon">🫁</div>
+          <h3>牛呼吸道病綜合症（BRD）</h3>
+          <p>最常見且損失最大的牛隻疾病，多種病毒與細菌混合感染，死亡率高，治療成本龐大。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌡️</div>
+          <h3>熱緊迫（Heat Stress）</h3>
+          <p>牛對高溫敏感，溫濕度指數（THI）超過 72 即開始影響，呼吸頻率急增，生產效能下降。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🦠</div>
+          <h3>氨氣慢性損傷</h3>
+          <p>密閉牛舍氨氣累積慢性損傷呼吸道黏膜，降低免疫屏障，使 BRD 病原更容易入侵。</p>
+        </div>
+        <div class="card">
+          <div class="icon">⚖️</div>
+          <h3>體況失衡</h3>
+          <p>過肥或過瘦都會影響呼吸效率與免疫功能，精準的體況評分管理是健康的基礎。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-dairy">
+      <div class="cards">
+        <div class="card">
+          <div class="icon">🥛</div>
+          <h3>圍產期代謝病</h3>
+          <p>分娩前後過肥的乳牛易發生酮病、脂肪肝，代謝紊亂削弱免疫力，呼吸道感染風險大增。</p>
+        </div>
+        <div class="card">
+          <div class="icon">📉</div>
+          <h3>泌乳高峰期免疫低下</h3>
+          <p>泌乳高峰期能量負平衡使免疫功能下降，是呼吸道疾病的高風險時期。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌡️</div>
+          <h3>熱緊迫影響產乳</h3>
+          <p>THI &gt;72 時每頭乳牛每日產乳量可下降 10～25%，呼吸頻率增加消耗大量能量。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🐄</div>
+          <h3>乾乳期過肥</h3>
+          <p>乾乳期過度餵食導致分娩時體況過高（BCS &gt;3.75），顯著增加呼吸道與代謝疾病風險。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-beef">
+      <div class="cards">
+        <div class="card">
+          <div class="icon">🚛</div>
+          <h3>運輸緊迫性 BRD</h3>
+          <p>運輸後免疫力下降是肉牛 BRD 最主要誘因，到場後 2～3 週是呼吸道疾病高峰期。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🏋️</div>
+          <h3>快速增重與代謝</h3>
+          <p>高能量飼料促進快速增重，但過快的增重速度可能導致瘤胃酸中毒，間接影響呼吸功能。</p>
+        </div>
+        <div class="card">
+          <div class="icon">📊</div>
+          <h3>飼育場密度問題</h3>
+          <p>高密度飼養加速病原傳播，是肉牛 BRD 爆發的主要風險因子。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌬️</div>
+          <h3>塵埃與呼吸道刺激</h3>
+          <p>乾燥飼育場揚塵嚴重，長期吸入粉塵損傷肺部，增加繼發性細菌感染風險。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="assess-box">
+      <h3>📋 牛隻呼吸狀態評估指標（DART 評分系統）</h3>
+      <div class="assess-grid">
+        <div class="assess-item good">
+          <div class="assess-label">正常</div>
+          <div>靜息呼吸頻率 15～30 次/分</div>
+          <div>閉嘴呼吸，無鼻分泌物</div>
+          <div>精神活躍，採食正常</div>
+        </div>
+        <div class="assess-item warn">
+          <div class="assess-label">需注意（DART 1～2）</div>
+          <div>輕微鼻分泌物或眼分泌物</div>
+          <div>耳朵下垂、輕微精神不振</div>
+          <div>採食量輕微下降</div>
+        </div>
+        <div class="assess-item danger">
+          <div class="assess-label">需立即處理（DART 3～4）</div>
+          <div>大量鼻分泌物、張口呼吸</div>
+          <div>明顯腹式呼吸、呼吸有囉音</div>
+          <div>發燒 &gt;39.5°C、完全不採食</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 環境管理 -->
+  <section id="environment" class="section section-alt">
+    <h2>環境管理與呼吸改善</h2>
+    <div class="methods">
+
+      <div class="method">
+        <div class="method-num">01</div>
+        <div class="method-body">
+          <h3>通風系統管理</h3>
+          <p>良好通風是預防 BRD 最有效的非藥物手段，直接降低病原濃度與氨氣刺激。</p>
+          <ol>
+            <li>自然通風牛舍：屋脊開口寬度至少為牛舍寬度的 10%</li>
+            <li>氨氣濃度維持在 25 ppm 以下（理想 &lt;10 ppm）</li>
+            <li>避免死角與氣流不均，定期用煙霧測試檢查通風效果</li>
+            <li>冬季最低換氣量：每頭成牛每分鐘 50 m³</li>
+            <li>每日記錄牛舍溫濕度與氨氣濃度</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="method">
+        <div class="method-num">02</div>
+        <div class="method-body">
+          <h3>熱緊迫管理（乳牛重點）</h3>
+          <p>THI 超過 72 需立即啟動降溫措施，每延誤一天都會造成顯著的產乳損失。</p>
+          <ol>
+            <li>安裝大型電風扇，風速維持牛體表面 2～3 m/s</li>
+            <li>搭配間歇式噴水系統（每 5 分鐘噴水 1 分鐘）</li>
+            <li>擠乳等待區與臥床區均需降溫覆蓋</li>
+            <li>高溫期增加飼料投放頻率，避免飼料發酵</li>
+            <li>確保每頭牛每日飲水量充足（泌乳牛需 100～150 公升）</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="method">
+        <div class="method-num">03</div>
+        <div class="method-body">
+          <h3>新進牛隻管理（肉牛重點）</h3>
+          <p>運輸後的隔離與監測是預防 BRD 爆發的關鍵窗口期。</p>
+          <ol>
+            <li>新進牛隻隔離至少 2～3 週，與原有牛群分開</li>
+            <li>到場後 24 小時內完成健康評估與疫苗接種</li>
+            <li>前 2 週每日早晚各巡欄一次，記錄 DART 評分</li>
+            <li>提供高品質粗料，幫助瘤胃功能恢復</li>
+            <li>避免過度操作，減少額外緊迫</li>
+          </ol>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 飼料管理 -->
+  <section id="foods" class="section">
+    <h2>飼料管理與體況控制</h2>
+    <p class="sub-desc">乳牛與肉牛的飼料策略不同，但體況管理同樣關鍵</p>
+
+    <div class="dual-section">
+      <div class="dual-card">
+        <h3>🥛 乳牛飼料重點</h3>
+        <ul>
+          <li>乾乳期限制能量攝取，目標 BCS 3.25～3.5</li>
+          <li>圍產期補充維生素 E 與硒，強化免疫與呼吸道防禦</li>
+          <li>泌乳高峰期提高過瘤胃蛋白比例，減少能量負平衡</li>
+          <li>全混合日糧（TMR）確保每頭牛均衡攝取</li>
+          <li>熱緊迫期增加碳酸氫鈉緩衝劑，維持瘤胃 pH 值</li>
+        </ul>
+      </div>
+      <div class="dual-card">
+        <h3>🥩 肉牛飼料重點</h3>
+        <ul>
+          <li>到場初期以粗料為主，讓瘤胃逐步適應高能量飼料</li>
+          <li>育肥後期逐步提高穀物比例，避免瘤胃酸中毒</li>
+          <li>補充維生素 A、D、E，維持呼吸道黏膜完整性</li>
+          <li>添加離子載體（如莫能菌素）提升飼料轉換率</li>
+          <li>監控每日採食量，下降超過 10% 需評估健康狀況</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="food-avoid">
+      <h3>⚠️ 飼料管理禁忌</h3>
+      <div class="avoid-list">
+        <span>🍄 發霉飼料（黴菌毒素損傷免疫與肺部）</span>
+        <span>⚡ 過快換料（瘤胃酸中毒）</span>
+        <span>💊 抗生素預防性濫用（抗藥性問題）</span>
+        <span>🌽 穀物比例過高過快（脹氣、酸中毒）</span>
+        <span>🧂 食鹽或礦物質過量（腎臟負擔）</span>
+      </div>
+    </div>
+
+    <div class="diet-protocol">
+      <h3>📊 體況管理關鍵指標</h3>
+      <div class="protocol-grid">
+        <div class="protocol-item">
+          <div class="protocol-title">乳牛 BCS 目標</div>
+          <p>乾乳期 3.25～3.5，分娩時 3.0～3.5，泌乳高峰後不低於 2.5，避免過度消耗</p>
+        </div>
+        <div class="protocol-item">
+          <div class="protocol-title">肉牛平均日增重（ADG）</div>
+          <p>育肥期目標 ADG 1.2～1.5 kg/天，過高可能代表過肥，過低需評估健康與飼料問題</p>
+        </div>
+        <div class="protocol-item">
+          <div class="protocol-title">THI 熱緊迫指數</div>
+          <p>THI = 溫度 + 0.36 × 露點溫度 + 41.2，超過 72 需降溫，超過 80 為緊急狀態</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 照護指南 -->
+  <section id="tips" class="section section-alt">
+    <h2>日常照護與監測指南</h2>
+    <div class="tips-grid">
+      <div class="tip">🌅 每日早晨巡欄，使用 DART 評分系統評估每頭牛，發燒個體立即隔離治療</div>
+      <div class="tip">📊 每月進行體況評分（BCS），建立個體健康檔案，追蹤體況變化趨勢</div>
+      <div class="tip">💉 依獸醫建議執行疫苗計畫，BRD 相關疫苗（IBR、BVD、BRSV、PI3）是防疫核心</div>
+      <div class="tip">🌡️ 安裝 THI 監測系統，超過閾值自動啟動降溫設備，減少人工判斷延誤</div>
+      <div class="tip">🚗 落實生物安全，外來車輛消毒，新進牛隻嚴格隔離，避免引入新病原</div>
+      <div class="tip">🩺 與牛病獸醫師建立合作，定期進行牛群健康評估、血清監測與剖檢分析</div>
+    </div>
+
+    <div class="warning-box">
+      ⚠️ 本指南僅供農場管理人員參考。疾病診斷與用藥需由持照獸醫師執行，切勿自行投藥。
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>🐄 牛隻健康管理 &nbsp;|&nbsp; 專為乳牛場與肉牛農場管理人員設計</p>
+    <p class="footer-note">本網站內容僅供專業人員參考，所有醫療行為請諮詢牛病獸醫師</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

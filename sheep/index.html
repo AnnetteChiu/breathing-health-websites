@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>羊隻呼吸健康管理｜農場牧場指南</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">🐑 羊隻健康管理</div>
+    <ul class="nav-links">
+      <li><a href="#about">呼吸評估</a></li>
+      <li><a href="#environment">環境管理</a></li>
+      <li><a href="#foods">飼料管理</a></li>
+      <li><a href="#tips">照護指南</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-emoji">🐑</div>
+      <h1>羊隻呼吸健康與體重管理</h1>
+      <p>專為綿羊牧場與山羊農場管理人員設計的呼吸道健康、體況控制與生產效能最佳化指南。</p>
+      <a href="#about" class="btn">查看指南</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>羊隻呼吸問題與體況影響</h2>
+
+    <div class="tab-btns">
+      <button class="tab-btn active" data-tab="all">共同問題</button>
+      <button class="tab-btn" data-tab="sheep">綿羊</button>
+      <button class="tab-btn" data-tab="goat">山羊</button>
+    </div>
+
+    <div class="tab-content active" id="tab-all">
+      <div class="cards">
+        <div class="card">
+          <div class="icon">🫁</div>
+          <h3>巴氏桿菌肺炎</h3>
+          <p>羊隻最常見且致死率最高的呼吸道疾病，緊迫、運輸、天氣驟變是主要誘因。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🦠</div>
+          <h3>梅迪-維斯納病（MVV）</h3>
+          <p>慢性病毒性肺炎，無法治癒，感染羊隻逐漸消瘦、呼吸困難，需淘汰管理。</p>
+        </div>
+        <div class="card">
+          <div class="icon">⚖️</div>
+          <h3>體況失衡</h3>
+          <p>過肥或過瘦均影響呼吸效率，母羊分娩前後體況管理直接影響存活率。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌡️</div>
+          <h3>熱緊迫</h3>
+          <p>厚毛綿羊對高溫特別敏感，夏季未剪毛個體呼吸頻率急增，生產效能大幅下降。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-sheep">
+      <div class="cards">
+        <div class="card">
+          <div class="icon">🧶</div>
+          <h3>羊毛與散熱</h3>
+          <p>未剪毛綿羊在夏季散熱困難，呼吸頻率可達正常值 3 倍，每年定期剪毛是必要管理。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🐑</div>
+          <h3>群體壓力</h3>
+          <p>綿羊群體性強，個體分離造成極大緊迫，削弱免疫力，增加呼吸道感染風險。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌿</div>
+          <h3>牧草地管理</h3>
+          <p>過度放牧導致寄生蟲（肺蟲）感染率上升，慢性咳嗽與呼吸困難是常見症狀。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🐣</div>
+          <h3>羔羊呼吸道</h3>
+          <p>新生羔羊免疫系統未成熟，出生後 48 小時內初乳攝取量直接決定呼吸道抵抗力。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-goat">
+      <div class="cards">
+        <div class="card">
+          <div class="icon">🥛</div>
+          <h3>乳羊體況管理</h3>
+          <p>泌乳高峰期能量負平衡削弱免疫力，乳羊呼吸道感染風險在產後 2 個月最高。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🦠</div>
+          <h3>山羊關節炎腦炎（CAE）</h3>
+          <p>山羊特有的慢性病毒病，肺部病變是常見症狀之一，需定期血清篩查。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🧗</div>
+          <h3>攀爬活動需求</h3>
+          <p>山羊天生需要攀爬活動，活動不足導致肥胖，提供攀爬設施是維持呼吸健康的關鍵。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌬️</div>
+          <h3>通風敏感性</h3>
+          <p>山羊對潮濕與通風不良極度敏感，比綿羊更容易因環境不良而發生呼吸道疾病。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="assess-box">
+      <h3>📋 羊隻呼吸狀態評估指標</h3>
+      <div class="assess-grid">
+        <div class="assess-item good">
+          <div class="assess-label">正常</div>
+          <div>靜息呼吸頻率 12～20 次/分</div>
+          <div>閉嘴呼吸，無鼻分泌物</div>
+          <div>精神活躍，採食正常</div>
+        </div>
+        <div class="assess-item warn">
+          <div class="assess-label">需注意</div>
+          <div>呼吸頻率 20～30 次/分</div>
+          <div>輕微鼻分泌物或偶發咳嗽</div>
+          <div>採食量下降、落後群體</div>
+        </div>
+        <div class="assess-item danger">
+          <div class="assess-label">需立即處理</div>
+          <div>持續張口喘氣、腹式呼吸</div>
+          <div>大量鼻分泌物、呼吸有囉音</div>
+          <div>發燒 &gt;40°C、完全不採食</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="environment" class="section section-alt">
+    <h2>環境管理與呼吸改善</h2>
+    <div class="methods">
+
+      <div class="method">
+        <div class="method-num">01</div>
+        <div class="method-body">
+          <h3>羊舍通風管理</h3>
+          <p>良好通風是預防羊隻呼吸道疾病最有效的非藥物手段。</p>
+          <ol>
+            <li>氨氣濃度維持在 20 ppm 以下（理想 &lt;10 ppm）</li>
+            <li>自然通風羊舍：側牆開口面積至少為地板面積的 10%</li>
+            <li>避免死角與氣流不均，定期用煙霧測試通風效果</li>
+            <li>冬季保暖與通風需平衡，不可完全密閉</li>
+            <li>每日清除糞便，減少氨氣與病原菌累積</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="method">
+        <div class="method-num">02</div>
+        <div class="method-body">
+          <h3>綿羊剪毛管理</h3>
+          <p>定期剪毛是綿羊夏季呼吸健康的關鍵，直接影響散熱效率與呼吸頻率。</p>
+          <ol>
+            <li>每年春季（氣溫穩定後）進行剪毛</li>
+            <li>剪毛後 2 週內注意保暖，避免夜間低溫</li>
+            <li>高溫季節未剪毛個體需提供遮蔭與充足飲水</li>
+            <li>剪毛後觀察呼吸頻率，確認散熱改善</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="method">
+        <div class="method-num">03</div>
+        <div class="method-body">
+          <h3>牧場輪牧管理</h3>
+          <p>輪牧減少寄生蟲（肺蟲）感染，是預防慢性呼吸道問題的根本方法。</p>
+          <ol>
+            <li>將牧場分為 4～6 區，每區放牧不超過 3 週</li>
+            <li>輪牧間隔至少 6 週，讓肺蟲幼蟲自然死亡</li>
+            <li>每季進行糞便寄生蟲檢查，依結果決定驅蟲</li>
+            <li>避免在潮濕低窪地放牧，減少寄生蟲感染機會</li>
+          </ol>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="foods" class="section">
+    <h2>飼料管理與體況控制</h2>
+    <p class="sub-desc">綿羊與山羊飼料策略有所不同，體況管理同樣關鍵</p>
+
+    <div class="dual-section">
+      <div class="dual-card">
+        <h3>🐑 綿羊飼料重點</h3>
+        <ul>
+          <li>優質牧草為主，佔日糧 70～80%</li>
+          <li>妊娠後期與泌乳期補充精料，維持體況 BCS 3～3.5</li>
+          <li>補充維生素 E 與硒，強化呼吸道免疫功能</li>
+          <li>礦物質舔磚自由採食，補充銅、鋅、碘</li>
+          <li>確保充足飲水，每頭每日至少 3～5 公升</li>
+        </ul>
+      </div>
+      <div class="dual-card">
+        <h3>🐐 山羊飼料重點</h3>
+        <ul>
+          <li>山羊喜好多樣化，灌木、樹葉、牧草均可</li>
+          <li>乳羊泌乳高峰期需高蛋白飼料，維持體況避免過度消耗</li>
+          <li>補充維生素 C（山羊可自行合成，但緊迫期需額外補充）</li>
+          <li>避免潮濕發霉飼料，山羊對黴菌毒素特別敏感</li>
+          <li>每頭乳羊每日需水量 3～10 公升，泌乳期更多</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="breath-foods">
+      <h3>🫁 對呼吸有幫助的食物與補充劑</h3>
+      <div class="breath-food-grid">
+        <div class="bf-card">
+          <div class="bf-emoji">🌿</div>
+          <h4>新鮮牧草</h4>
+          <p>高水分幫助呼吸道濕潤，維生素豐富，是最天然的呼吸道保護食物。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">💊</div>
+          <h4>維生素 E + 硒</h4>
+          <p>協同保護肺部細胞，缺硒地區羊隻特別容易發生呼吸道問題。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">🧄</div>
+          <h4>大蒜（少量）</h4>
+          <p>天然抗菌，幫助清除呼吸道黏液，可混入飼料少量補充。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">🌾</div>
+          <h4>燕麥草</h4>
+          <p>高纖維低糖，幫助維持健康體重，減少腹部脂肪壓迫橫膈膜。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">🧪</div>
+          <h4>益生菌</h4>
+          <p>改善瘤胃健康，提升整體免疫力，間接降低呼吸道感染風險。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">💧</div>
+          <h4>充足飲水</h4>
+          <p>維持呼吸道黏膜濕潤，幫助代謝，高溫期需特別確保供水充足。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="food-avoid">
+      <h3>⚠️ 飼料管理禁忌</h3>
+      <div class="avoid-list">
+        <span>🍄 發霉飼料（黴菌毒素損傷肺部免疫）</span>
+        <span>🌿 有毒植物（杜鵑花、夾竹桃、蕨類）</span>
+        <span>🌽 穀物過量（瘤胃酸中毒）</span>
+        <span>🧂 食鹽過量（水腫、腎臟負擔）</span>
+        <span>💊 抗生素濫用（抗藥性問題）</span>
+      </div>
+    </div>
+
+    <div class="diet-protocol">
+      <h3>📊 體況管理關鍵指標</h3>
+      <div class="protocol-grid">
+        <div class="protocol-item">
+          <div class="protocol-title">體況評分（BCS）</div>
+          <p>使用 1～5 分制，配種時目標 3～3.5 分，分娩時 2.5～3 分，過肥過瘦均影響呼吸與繁殖</p>
+        </div>
+        <div class="protocol-item">
+          <div class="protocol-title">群體咳嗽率監控</div>
+          <p>每日巡欄記錄咳嗽頭數，群體咳嗽率超過 5% 需立即通報獸醫，評估是否有呼吸道疾病爆發</p>
+        </div>
+        <div class="protocol-item">
+          <div class="protocol-title">寄生蟲監控（FAMACHA）</div>
+          <p>使用 FAMACHA 評分系統評估貧血程度，配合糞便蟲卵計數，精準決定驅蟲時機</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tips" class="section section-alt">
+    <h2>日常照護與監測指南</h2>
+    <div class="tips-grid">
+      <div class="tip">🌅 每日早晨巡欄，觀察呼吸頻率、鼻分泌物與精神狀態，落後群體的個體需立即隔離檢查</div>
+      <div class="tip">✂️ 綿羊每年定期剪毛，夏季前完成，未剪毛個體在高溫下呼吸頻率可達正常值 3 倍</div>
+      <div class="tip">💉 依獸醫建議執行疫苗計畫，巴氏桿菌肺炎疫苗是羊隻呼吸道防疫最重要項目</div>
+      <div class="tip">🌿 實施輪牧制度，每季進行糞便寄生蟲檢查，肺蟲是慢性咳嗽最常見原因</div>
+      <div class="tip">🚗 新進羊隻隔離至少 3～4 週，確認無呼吸道疾病再與原有羊群合併</div>
+      <div class="tip">🩺 與小反芻獸獸醫師建立合作，MVV 與 CAE 需定期血清篩查，及早淘汰陽性個體</div>
+    </div>
+
+    <div class="warning-box">
+      ⚠️ 本指南僅供農場管理人員參考。疾病診斷與用藥需由持照獸醫師執行，切勿自行投藥。
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>🐑 羊隻健康管理 &nbsp;|&nbsp; 專為綿羊牧場與山羊農場管理人員設計</p>
+    <p class="footer-note">本網站內容僅供專業人員參考，所有醫療行為請諮詢小反芻獸獸醫師</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

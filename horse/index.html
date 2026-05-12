@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>馬匹呼吸健康管理｜馬場與休閒騎乘指南</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">🐴 馬匹健康管理</div>
+    <ul class="nav-links">
+      <li><a href="#about">呼吸評估</a></li>
+      <li><a href="#exercise">訓練管理</a></li>
+      <li><a href="#foods">飼料管理</a></li>
+      <li><a href="#tips">照護指南</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-emoji">🐎</div>
+      <h1>馬匹呼吸健康與體重管理</h1>
+      <p>專為馬場管理人員與休閒騎乘馬主設計的呼吸道健康、體況控制與訓練效能最佳化指南。</p>
+      <a href="#about" class="btn">查看指南</a>
+    </div>
+  </section>
+
+  <!-- 呼吸評估 -->
+  <section id="about" class="section">
+    <h2>馬匹呼吸問題與體況影響</h2>
+
+    <div class="tab-btns">
+      <button class="tab-btn active" data-tab="both">共同問題</button>
+      <button class="tab-btn" data-tab="race">賽馬 / 競技馬</button>
+      <button class="tab-btn" data-tab="leisure">休閒騎乘馬</button>
+    </div>
+
+    <div class="tab-content active" id="tab-both">
+      <div class="cards">
+        <div class="card">
+          <div class="icon">🫁</div>
+          <h3>馬復發性氣道阻塞（RAO）</h3>
+          <p>俗稱「喘鳴症」，類似人類氣喘，馬廄粉塵與黴菌孢子是主要誘因，肥胖會加重症狀。</p>
+        </div>
+        <div class="card">
+          <div class="icon">⚖️</div>
+          <h3>馬代謝症候群（EMS）</h3>
+          <p>肥胖馬匹常見，胰島素阻抗導致蹄葉炎，同時影響呼吸效率與運動耐力。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌡️</div>
+          <h3>熱緊迫</h3>
+          <p>馬匹運動後體溫急升，呼吸頻率可達 60～80 次/分，過重馬匹散熱更困難。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🦠</div>
+          <h3>馬流感與鼻肺炎</h3>
+          <p>高度傳染性呼吸道疾病，馬場密集環境下傳播迅速，肥胖馬匹免疫力較弱更易感染。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-race">
+      <div class="cards">
+        <div class="card">
+          <div class="icon">🩸</div>
+          <h3>運動誘發性肺出血（EIPH）</h3>
+          <p>高強度運動時肺部微血管破裂出血，是賽馬最常見的呼吸道問題，影響成績與健康。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🎽</div>
+          <h3>上呼吸道動態塌陷</h3>
+          <p>高速奔跑時喉部軟組織塌陷阻塞氣道，造成特有的「喘鳴聲」，需手術治療。</p>
+        </div>
+        <div class="card">
+          <div class="icon">📊</div>
+          <h3>體重與競技表現</h3>
+          <p>賽馬體況評分目標 4～5 分，過重每增加 1% 體重，速度約下降 0.3%。</p>
+        </div>
+        <div class="card">
+          <div class="icon">💨</div>
+          <h3>最大攝氧量（VO₂max）</h3>
+          <p>馬匹 VO₂max 是人類的 3 倍，呼吸道任何阻力都會顯著影響競技表現。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-leisure">
+      <div class="cards">
+        <div class="card">
+          <div class="icon">🌿</div>
+          <h3>牧草地肥胖症</h3>
+          <p>休閒馬長時間放牧，攝取過多高糖牧草，是最常見的肥胖原因，誘發蹄葉炎與呼吸問題。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🏇</div>
+          <h3>運動量不足</h3>
+          <p>休閒馬每週騎乘次數少，代謝率低，體重容易累積，呼吸系統儲備能力下降。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🧓</div>
+          <h3>老齡馬呼吸退化</h3>
+          <p>20 歲以上老齡馬肺部彈性下降，加上體重過重，呼吸效率顯著降低。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🏠</div>
+          <h3>馬廄空氣品質</h3>
+          <p>長時間關廄的休閒馬暴露在高濃度氨氣與粉塵中，慢性損傷呼吸道。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="assess-box">
+      <h3>📋 馬匹呼吸狀態評估指標</h3>
+      <div class="assess-grid">
+        <div class="assess-item good">
+          <div class="assess-label">正常</div>
+          <div>靜息呼吸頻率 8～16 次/分</div>
+          <div>閉嘴呼吸，無鼻分泌物</div>
+          <div>運動後 10 分鐘內恢復正常</div>
+        </div>
+        <div class="assess-item warn">
+          <div class="assess-label">需注意</div>
+          <div>靜息呼吸頻率 16～24 次/分</div>
+          <div>輕微鼻分泌物或偶發咳嗽</div>
+          <div>運動後恢復時間延長</div>
+        </div>
+        <div class="assess-item danger">
+          <div class="assess-label">需立即處理</div>
+          <div>靜息呼吸頻率 &gt;24 次/分</div>
+          <div>張鼻孔呼吸、腹部用力起伏</div>
+          <div>呼吸有囉音、鼻孔有血絲</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 訓練管理 -->
+  <section id="exercise" class="section section-alt">
+    <h2>訓練管理與呼吸改善</h2>
+    <div class="methods">
+
+      <div class="method">
+        <div class="method-num">01</div>
+        <div class="method-body">
+          <h3>漸進式有氧訓練</h3>
+          <p>循序漸進的訓練計畫能有效提升心肺功能，同時安全地降低體重。</p>
+          <ol>
+            <li>肥胖馬從每天 20 分鐘慢步開始，每週增加 5 分鐘</li>
+            <li>第 3～4 週加入小跑步，每次 5～10 分鐘</li>
+            <li>訓練中監測呼吸頻率，超過 60 次/分立即降速</li>
+            <li>訓練後呼吸頻率應在 10 分鐘內降至 30 次/分以下</li>
+            <li>每週至少訓練 4 天，保持代謝活躍</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="method">
+        <div class="method-num">02</div>
+        <div class="method-body">
+          <h3>馬廄空氣品質管理</h3>
+          <p>馬每天在馬廄的時間長達 16～20 小時，空氣品質直接決定呼吸道健康。</p>
+          <ol>
+            <li>使用低粉塵墊料（橡膠墊、木屑顆粒），避免稻草</li>
+            <li>乾草改為浸泡後餵食，減少孢子吸入量</li>
+            <li>每天清潔馬廄，氨氣濃度維持在 10 ppm 以下</li>
+            <li>馬廄保持良好通風，避免密閉空間</li>
+            <li>RAO 馬匹盡量增加戶外放牧時間</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="method">
+        <div class="method-num">03</div>
+        <div class="method-body">
+          <h3>放牧管理（休閒馬重點）</h3>
+          <p>控制放牧時間與牧草品質，是預防休閒馬肥胖與代謝症候群的關鍵。</p>
+          <ol>
+            <li>高糖牧草季節（春秋）限制放牧時間至每天 2～4 小時</li>
+            <li>使用限食口罩（Grazing Muzzle）控制採食量</li>
+            <li>避免在清晨（糖分最高時段）放牧</li>
+            <li>提供低糖乾草替代新鮮牧草</li>
+            <li>每月評估體況評分，及時調整放牧策略</li>
+          </ol>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 飼料管理 -->
+  <section id="foods" class="section">
+    <h2>飼料管理與體況控制</h2>
+    <p class="sub-desc">馬匹飼料管理需依用途、年齡與體況個別制定</p>
+
+    <div class="dual-section">
+      <div class="dual-card">
+        <h3>🏇 競技馬飼料重點</h3>
+        <ul>
+          <li>高品質乾草為基礎，佔日糧 50～60%</li>
+          <li>依訓練強度補充穀物（燕麥、大麥），避免過量</li>
+          <li>補充電解質，維持高強度運動後的酸鹼平衡</li>
+          <li>Omega-3 脂肪酸（亞麻籽油）減少呼吸道發炎</li>
+          <li>比賽前 4 小時停止餵食，避免腹部壓迫橫膈膜</li>
+        </ul>
+      </div>
+      <div class="dual-card">
+        <h3>🌿 休閒馬飼料重點</h3>
+        <ul>
+          <li>低糖低澱粉乾草為主，限制或避免穀物</li>
+          <li>EMS 馬匹使用低糖牧草（NSC &lt;10%）</li>
+          <li>補充維生素 E 與硒，維護呼吸道免疫功能</li>
+          <li>礦物質舔磚自由採食，補充微量元素</li>
+          <li>少量多餐，每天至少 3 次，模擬自然採食行為</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 呼吸友善食物 -->
+    <div class="breath-foods">
+      <h3>🫁 對呼吸有幫助的食物與補充劑</h3>
+      <div class="breath-food-grid">
+        <div class="bf-card">
+          <div class="bf-emoji">🌾</div>
+          <h4>浸泡乾草</h4>
+          <p>泡水 30 分鐘去除 70～90% 黴菌孢子，RAO 馬匹最重要的飲食調整。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">🫒</div>
+          <h4>亞麻籽油</h4>
+          <p>富含 Omega-3，減少呼吸道發炎，每天 100～200 ml 添加於飼料中。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">🐟</div>
+          <h4>魚油</h4>
+          <p>EPA/DHA 抗發炎效果顯著，適合慢性呼吸道問題馬匹長期補充。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">💊</div>
+          <h4>維生素 E + 硒</h4>
+          <p>協同保護肺部細胞，缺硒會影響呼吸肌功能，運動馬需求量高。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">🌿</div>
+          <h4>百里香</h4>
+          <p>天然祛痰，幫助清除呼吸道黏液，可添加於飼料或製成茶水飲用。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">🟡</div>
+          <h4>薑黃</h4>
+          <p>強效抗發炎，搭配少量黑胡椒提升吸收率，每天 5～10 g 添加於飼料。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">🍯</div>
+          <h4>蜂蜜</h4>
+          <p>少量可舒緩喉部刺激，適合輕微咳嗽馬匹，每次 1～2 湯匙。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">🧂</div>
+          <h4>電解質</h4>
+          <p>高強度運動後補充鈉、鉀、氯，維持呼吸肌正常功能與酸鹼平衡。</p>
+        </div>
+      </div>
+      <div class="bf-note">
+        ⚠️ 大蒜雖有傳統呼吸道支持效果，但長期大量使用有溶血風險，使用前請諮詢獸醫師
+      </div>
+    </div>
+
+    <div class="food-avoid">
+      <h3>⚠️ 飼料管理禁忌</h3>
+      <div class="avoid-list">
+        <span>🍎 水果過量（高糖，EMS 馬匹禁止）</span>
+        <span>🌽 玉米過量（高澱粉，易致肥）</span>
+        <span>🍄 發霉乾草（黴菌孢子誘發 RAO）</span>
+        <span>🧅 洋蔥 / 大蒜（溶血性貧血）</span>
+        <span>🍫 巧克力（含可可鹼，中毒）</span>
+        <span>🥑 酪梨（心臟毒素）</span>
+      </div>
+    </div>
+
+    <div class="diet-protocol">
+      <h3>📊 體況管理關鍵指標</h3>
+      <div class="protocol-grid">
+        <div class="protocol-item">
+          <div class="protocol-title">Henneke 體況評分（BCS）</div>
+          <p>使用 1～9 分制，競技馬目標 4～5 分，休閒馬 4～6 分，超過 7 分為肥胖需介入</p>
+        </div>
+        <div class="protocol-item">
+          <div class="protocol-title">頸部脂肪評分（CNS）</div>
+          <p>頸部脂肪堆積是 EMS 的早期指標，CNS 超過 3 分需立即調整飲食與運動</p>
+        </div>
+        <div class="protocol-item">
+          <div class="protocol-title">減重速度</div>
+          <p>目標每月減少體重 0.5～1%，過快減重可能誘發高脂血症，需獸醫監控</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 照護指南 -->
+  <section id="tips" class="section section-alt">
+    <h2>日常照護與監測指南</h2>
+    <div class="tips-grid">
+      <div class="tip">🌅 每日早晨觀察靜息呼吸頻率與鼻分泌物，訓練前後各記錄一次，建立個體基準值</div>
+      <div class="tip">⚖️ 每月使用體重帶或磅秤測量體重，同時進行 Henneke BCS 與頸部脂肪評分</div>
+      <div class="tip">💉 每年接種馬流感、鼻肺炎疫苗，賽馬場環境每 6 個月接種一次</div>
+      <div class="tip">🦷 每年洗牙一次，牙齒問題影響採食效率，間接造成體況失衡</div>
+      <div class="tip">🪱 每季進行糞便寄生蟲檢查，依結果決定是否驅蟲，避免過度用藥</div>
+      <div class="tip">🩺 與馬匹獸醫師建立合作，RAO 與 EMS 需長期管理，定期評估治療計畫</div>
+    </div>
+
+    <div class="warning-box">
+      ⚠️ 本指南僅供馬場管理人員與馬主參考。疾病診斷與用藥需由持照馬匹獸醫師執行。
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>🐴 馬匹健康管理 &nbsp;|&nbsp; 專為馬場與休閒騎乘馬主設計</p>
+    <p class="footer-note">本網站內容僅供參考，所有醫療行為請諮詢馬匹獸醫師</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

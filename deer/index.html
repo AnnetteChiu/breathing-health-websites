@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>鹿隻呼吸健康管理｜農場與保育指南</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">🦌 鹿隻健康管理</div>
+    <ul class="nav-links">
+      <li><a href="#about">呼吸評估</a></li>
+      <li><a href="#environment">環境管理</a></li>
+      <li><a href="#foods">飲食管理</a></li>
+      <li><a href="#tips">照護指南</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-emoji">🦌</div>
+      <h1>鹿隻呼吸健康與體重管理</h1>
+      <p>專為梅花鹿、水鹿農場與麋鹿、馴鹿保育機構設計的呼吸道健康、體況控制與飲食管理指南。</p>
+      <a href="#about" class="btn">查看指南</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>鹿隻呼吸問題與體況影響</h2>
+
+    <div class="tab-btns">
+      <button class="tab-btn active" data-tab="all">共同問題</button>
+      <button class="tab-btn" data-tab="sika">梅花鹿</button>
+      <button class="tab-btn" data-tab="sambar">水鹿</button>
+      <button class="tab-btn" data-tab="elk">麋鹿 / 馴鹿</button>
+    </div>
+
+    <div class="tab-content active" id="tab-all">
+      <div class="cards">
+        <div class="card">
+          <div class="icon">🫁</div>
+          <h3>巴氏桿菌肺炎</h3>
+          <p>鹿隻最常見的致死性呼吸道疾病，運輸緊迫、天氣驟變、密集飼養是主要誘因。</p>
+        </div>
+        <div class="card">
+          <div class="icon">😰</div>
+          <h3>緊迫性免疫抑制</h3>
+          <p>鹿隻對緊迫極度敏感，任何操作或環境改變都可能引發免疫抑制，增加呼吸道感染風險。</p>
+        </div>
+        <div class="card">
+          <div class="icon">⚖️</div>
+          <h3>體況失衡</h3>
+          <p>過肥或過瘦均影響呼吸效率，鹿隻體況隨季節自然波動，需依季節調整管理策略。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🦠</div>
+          <h3>肺蟲感染</h3>
+          <p>放牧鹿隻常見肺蟲（Dictyocaulus）感染，造成慢性咳嗽與呼吸困難，影響體重增長。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-sika">
+      <div class="cards">
+        <div class="card">
+          <div class="icon">🌸</div>
+          <h3>梅花鹿特性</h3>
+          <p>台灣梅花鹿為特有亞種，體型中等，適應力強，鹿場常見，對呼吸道疾病有一定抵抗力。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🦴</div>
+          <h3>鹿茸生長期</h3>
+          <p>鹿茸生長期（春夏）代謝旺盛，需大量氧氣，呼吸道健康直接影響鹿茸品質與產量。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌡️</div>
+          <h3>夏季熱緊迫</h3>
+          <p>梅花鹿夏季容易熱緊迫，呼吸頻率增加，需提供足夠遮蔭與通風，避免呼吸道感染。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🐣</div>
+          <h3>幼鹿呼吸道</h3>
+          <p>新生幼鹿免疫系統未成熟，出生後初乳攝取量直接決定呼吸道抵抗力，需特別監護。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-sambar">
+      <div class="cards">
+        <div class="card">
+          <div class="icon">🌿</div>
+          <h3>水鹿體型優勢</h3>
+          <p>水鹿體型較大（可達 300 kg），肺活量大，但圈養環境下活動不足仍會導致呼吸功能退化。</p>
+        </div>
+        <div class="card">
+          <div class="icon">💧</div>
+          <h3>水源需求</h3>
+          <p>水鹿天生喜水，提供水池或泥漿浴不僅幫助散熱，也是重要的行為豐富化與呼吸健康管理。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌲</div>
+          <h3>大空間需求</h3>
+          <p>水鹿野外活動範圍廣，圈養空間不足導致慢性緊迫，削弱免疫力，增加呼吸道感染風險。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌿</div>
+          <h3>台灣保育現況</h3>
+          <p>台灣水鹿為保育類動物，圈養個體的健康管理對族群復育具有重要意義。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-elk">
+      <div class="cards">
+        <div class="card">
+          <div class="icon">❄️</div>
+          <h3>馴鹿寒帶適應</h3>
+          <p>馴鹿鼻腔特化，能預熱冷空氣再進入肺部，在溫暖氣候的動物園需特別注意熱緊迫。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🦌</div>
+          <h3>麋鹿大體型</h3>
+          <p>麋鹿（四不像）為中國特有種，體型龐大，圈養肥胖問題對呼吸影響顯著。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌿</div>
+          <h3>季節性代謝</h3>
+          <p>麋鹿與馴鹿有明顯季節性代謝變化，冬季代謝降低，呼吸頻率自然下降，需區分正常與異常。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🔬</div>
+          <h3>保育重要性</h3>
+          <p>麋鹿曾野外滅絕，現存個體均來自圈養族群，每隻個體的健康管理對物種存續至關重要。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="assess-box">
+      <h3>📋 鹿隻呼吸狀態評估指標</h3>
+      <div class="assess-grid">
+        <div class="assess-item good">
+          <div class="assess-label">正常</div>
+          <div>靜息呼吸頻率 15～25 次/分</div>
+          <div>閉嘴呼吸，無鼻分泌物</div>
+          <div>精神警覺，採食正常</div>
+        </div>
+        <div class="assess-item warn">
+          <div class="assess-label">需注意</div>
+          <div>呼吸頻率 25～35 次/分</div>
+          <div>輕微鼻分泌物或偶發咳嗽</div>
+          <div>採食量下降、落後群體</div>
+        </div>
+        <div class="assess-item danger">
+          <div class="assess-label">需立即處理</div>
+          <div>持續張口喘氣、腹式呼吸</div>
+          <div>大量鼻分泌物、呼吸有囉音</div>
+          <div>發燒 &gt;39.5°C、完全不採食</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="environment" class="section section-alt">
+    <h2>環境管理與呼吸改善</h2>
+    <div class="methods">
+
+      <div class="method">
+        <div class="method-num">01</div>
+        <div class="method-body">
+          <h3>低緊迫環境管理</h3>
+          <p>減少緊迫是鹿隻呼吸道健康最重要的非藥物手段，鹿對緊迫的敏感度遠高於其他家畜。</p>
+          <ol>
+            <li>避免突然的噪音、陌生人員或動物接近</li>
+            <li>操作前讓鹿隻適應人員存在，減少捕捉頻率</li>
+            <li>新進鹿隻隔離至少 4 週，讓其適應新環境</li>
+            <li>保持穩定的日常作息，減少環境變化</li>
+            <li>提供足夠遮蔽物，讓鹿隻有安全感</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="method">
+        <div class="method-num">02</div>
+        <div class="method-body">
+          <h3>通風與遮蔭管理</h3>
+          <p>良好通風減少病原菌累積，充足遮蔭防止熱緊迫，兩者共同保護呼吸道健康。</p>
+          <ol>
+            <li>鹿舍氨氣濃度維持在 20 ppm 以下</li>
+            <li>每頭鹿至少 10 m² 活動空間，避免過度密集</li>
+            <li>夏季提供足夠遮蔭，每頭鹿至少 3 m² 遮蔭面積</li>
+            <li>水鹿提供水池或噴水設施幫助散熱</li>
+            <li>每日清除糞便，減少氨氣與病原菌累積</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="method">
+        <div class="method-num">03</div>
+        <div class="method-body">
+          <h3>輪牧與寄生蟲管理</h3>
+          <p>輪牧減少肺蟲感染，是預防鹿隻慢性呼吸道問題的根本方法。</p>
+          <ol>
+            <li>將牧場分為 4～6 區，每區放牧不超過 3 週</li>
+            <li>輪牧間隔至少 6 週，讓肺蟲幼蟲自然死亡</li>
+            <li>每季進行糞便寄生蟲檢查，依結果決定驅蟲</li>
+            <li>避免在潮濕低窪地放牧，減少寄生蟲感染機會</li>
+          </ol>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="foods" class="section">
+    <h2>飲食管理與體況控制</h2>
+    <p class="sub-desc">鹿隻為反芻動物，飲食以粗飼料為主，以下食物對呼吸健康特別有幫助</p>
+
+    <div class="breath-foods">
+      <h3>🫁 對呼吸有幫助的食物與補充劑</h3>
+      <div class="breath-food-grid">
+        <div class="bf-card">
+          <div class="bf-emoji">🌿</div>
+          <h4>新鮮牧草</h4>
+          <p>高水分維持呼吸道黏膜濕潤，豐富維生素保護呼吸道免疫功能。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">🌾</div>
+          <h4>燕麥草 / 提摩西草</h4>
+          <p>高纖低糖，幫助維持健康體重，減少腹部脂肪壓迫橫膈膜。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">🥦</div>
+          <h4>花椰菜葉</h4>
+          <p>蘿蔔硫素幫助排除肺部毒素，少量新鮮餵食，改善呼吸道健康。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">🫐</div>
+          <h4>藍莓 / 野莓</h4>
+          <p>高抗氧化，保護肺泡細胞，可作為豐富化零食少量補充。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">💊</div>
+          <h4>維生素 E + 硒</h4>
+          <p>協同保護肺部細胞，缺硒地區鹿隻特別容易發生呼吸道與肌肉問題。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">🧄</div>
+          <h4>大蒜（少量）</h4>
+          <p>天然抗菌，幫助清除呼吸道黏液，可混入飼料少量補充。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">🌿</div>
+          <h4>百里香</h4>
+          <p>天然祛痰，幫助清除呼吸道黏液，鹿茸生長期特別有助於維持呼吸效率。</p>
+        </div>
+        <div class="bf-card">
+          <div class="bf-emoji">💧</div>
+          <h4>充足飲水</h4>
+          <p>維持呼吸道黏膜濕潤，每頭成鹿每日需水量 5～10 公升，隨時供應新鮮水。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="dual-section">
+      <div class="dual-card">
+        <h3>🌸 梅花鹿 / 水鹿（農場）</h3>
+        <ul>
+          <li>優質牧草為主，佔日糧 70～80%</li>
+          <li>鹿茸生長期（春夏）補充精料，維持體況 BCS 3～3.5</li>
+          <li>補充礦物質舔磚，確保鈣磷平衡</li>
+          <li>避免高糖飼料，防止代謝症候群</li>
+          <li>每頭每日飲水量至少 5 公升，夏季更多</li>
+        </ul>
+      </div>
+      <div class="dual-card">
+        <h3>🦌 麋鹿 / 馴鹿（動物園）</h3>
+        <ul>
+          <li>依季節調整飼料量，冬季自然減少採食屬正常</li>
+          <li>馴鹿補充地衣（苔蘚），是野外重要食物來源</li>
+          <li>麋鹿補充水生植物，模擬野外飲食多樣性</li>
+          <li>補充維生素 D（圈養日照不足）</li>
+          <li>所有飲食調整需獸醫師與營養師共同制定</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="food-avoid">
+      <h3>⚠️ 飲食禁忌</h3>
+      <div class="avoid-list">
+        <span>🍄 發霉飼料（黴菌毒素損傷肺部免疫）</span>
+        <span>🌿 有毒植物（杜鵑花、夾竹桃、蕨類過量）</span>
+        <span>🌽 穀物過量（瘤胃酸中毒）</span>
+        <span>🧂 食鹽過量（腎臟負擔）</span>
+        <span>💊 抗生素濫用（抗藥性問題）</span>
+      </div>
+    </div>
+
+    <div class="diet-protocol">
+      <h3>📊 體況管理關鍵指標</h3>
+      <div class="protocol-grid">
+        <div class="protocol-item">
+          <div class="protocol-title">體況評分（BCS）</div>
+          <p>使用 1～5 分制，目標維持在 2.5～3.5 分，依季節自然波動屬正常，過肥過瘦均需介入</p>
+        </div>
+        <div class="protocol-item">
+          <div class="protocol-title">群體咳嗽率監控</div>
+          <p>每日巡欄記錄咳嗽頭數，群體咳嗽率超過 5% 需立即通報獸醫，評估是否有肺炎爆發</p>
+        </div>
+        <div class="protocol-item">
+          <div class="protocol-title">寄生蟲定期監控</div>
+          <p>每季糞便蟲卵計數，肺蟲感染需使用驅蟲藥，由獸醫師處方，避免過度用藥</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tips" class="section section-alt">
+    <h2>日常照護與監測指南</h2>
+    <div class="tips-grid">
+      <div class="tip">🌅 每日早晨遠距離觀察鹿群，避免靠近造成緊迫，落後群體或低頭垂耳個體需進一步評估</div>
+      <div class="tip">✂️ 梅花鹿每年定期鋸茸，操作前確認呼吸健康，緊迫操作後觀察 48 小時</div>
+      <div class="tip">💉 依獸醫建議執行疫苗計畫，巴氏桿菌肺炎疫苗是鹿隻呼吸道防疫最重要項目</div>
+      <div class="tip">🌿 實施輪牧制度，每季進行糞便寄生蟲檢查，肺蟲是慢性咳嗽最常見原因</div>
+      <div class="tip">🚗 新進鹿隻隔離至少 4 週，鹿隻對緊迫極度敏感，隔離期間盡量減少操作</div>
+      <div class="tip">🩺 與鹿科動物獸醫師建立合作，鹿隻善於隱藏病痛，定期健康評估非常重要</div>
+    </div>
+
+    <div class="warning-box">
+      ⚠️ 本指南僅供農場管理人員與動物園保育員參考。疾病診斷與用藥需由持照獸醫師執行，切勿自行投藥。
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>🦌 鹿隻健康管理 &nbsp;|&nbsp; 專為鹿場農場與動物園保育機構設計</p>
+    <p class="footer-note">本網站內容僅供專業人員參考，所有醫療行為請諮詢鹿科動物獸醫師</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
